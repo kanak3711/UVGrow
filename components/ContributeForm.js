@@ -60,14 +60,7 @@ class ContributeForm extends Component {
         label='Last name'
         placeholder='Last name'
       />
-      <Form.Field
-        control={Select}
-        options={genderOptions}
-        label={{ children: 'Gender', htmlFor: 'form-select-control-gender' }}
-        placeholder='Gender'
-        search
-        searchInput={{ id: 'form-select-control-gender' }}
-      />
+      
     </Form.Group>
     <Form.Field
       id='form-textarea-control-opinion'
